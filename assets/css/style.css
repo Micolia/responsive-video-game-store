@@ -265,16 +265,15 @@ main div {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        padding: 30px 15px 0 15px;
+        padding: 30px 20px 30px 30px;
     }
 
     .logo {
         display: flex;
         align-items: center;
-        justify-content: center;
-        gap: 15px;
+        justify-content: start;
         margin:0;
-        padding-bottom: 30px;
+        padding-bottom:20px;
     }
 
     .offerta-prodotti {
