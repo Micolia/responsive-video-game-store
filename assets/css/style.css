@@ -27,20 +27,15 @@ nav {
     background-color: rgb(0, 0, 0);
     color: #ffffff;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
+    padding: 30px;
 }
 
 nav p {
     padding: 5px;
 }
 
-.index {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-}
 
 .logo {
     display: flex;
@@ -48,7 +43,6 @@ nav p {
     justify-content: center;
     gap: 15px;
     margin:0;
-    padding: 10px 10px 0px 10px;
 }
 
 .logo h1 {
@@ -73,16 +67,16 @@ nav p {
     padding: 0px 20px 20px 10px;
 }
 
-.index h2{
+nav h2{
     padding-top: 40px;
 }
 
-.index p {
+nav p {
     color: #00CFFD;
     padding-top: 30px;
 }
 
-.index p:hover {
+nav p:hover {
     color: #ffffff;
     border: 2px solid #00CFFD;
     border-radius: 8px;
@@ -264,6 +258,24 @@ main div {
         "footer main";
         height: 100vh;
     }
+    nav {
+        grid-area: menu;
+        background-color: rgb(0, 0, 0);
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 30px 15px 0 15px;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        margin:0;
+        padding-bottom: 30px;
+    }
 
     .offerta-prodotti {
         flex-direction: row;
@@ -278,12 +290,6 @@ main div {
 
     .hamburger {
         display: none
-    }
-
-    .index {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
     }
 
     .filter {
