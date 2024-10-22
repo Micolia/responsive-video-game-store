@@ -17,8 +17,8 @@ html,body {
     "menu"
     "filter"
     "main"
-    "pages"
     "footer";
+    height: 100vh;
 }
 
 /**menu laterale**/
@@ -29,6 +29,7 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    min-height: 100%;
 }
 
 nav p {
@@ -70,7 +71,7 @@ nav p {
 .description {
     display: flex;
     flex-direction: column;
-    padding: 0px 20px 20px 20px;
+    padding: 0px 20px 20px 10px;
 }
 
 .index h2{
@@ -109,7 +110,7 @@ footer {
 
 }
 
-.footer-mobile {
+footer {
     color: #ffffff;
     background-color: #000000;
     padding-top: 30px;
@@ -158,6 +159,7 @@ main {
     gap: 30px;
     padding: 40px 20px 40px 20px;
     background-color: rgb(35, 35, 35);
+    height: 100%;
 
 }
 
@@ -218,14 +220,15 @@ main div {
 
 /**numerazione pagina**/
 .pages {
-    grid-area: pages;
     background-color: rgb(35, 35, 35);
     color: white;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    padding: 20px 0;
+    padding: 40px 0 0 0;
+    border: 0;
 }
 
 .pages a {
@@ -259,7 +262,7 @@ main div {
         grid-template-areas:
         "menu filter"
         "menu main"
-        "menu pages";
+        "footer main";
         height: 100vh;
     }
 
@@ -272,10 +275,6 @@ main div {
 
     main div {
         width: 20%;
-    }
-
-    .footer-mobile {
-        display: none;
     }
 
     .hamburger {
@@ -300,9 +299,6 @@ main div {
 
 
 @media (max-width: 575.98px) {
-        .footer-web {
-            display: none;
-        }
 
         .description {
             display: none;
