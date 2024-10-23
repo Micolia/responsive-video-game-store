@@ -15,4 +15,4 @@ This repository contains the code for a responsive online video game store layou
  
 ## Preview
 
-![Page preview](assets/img/preview_game.png)
+![Page preview](assets/img/preview.png)
