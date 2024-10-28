@@ -221,6 +221,7 @@ main div {
     .box {
         display: grid;
         grid-template-columns: 15% auto;
+        grid-template-rows: 10% auto 10%;
         grid-template-areas:
         "menu filter"
         "menu main"
