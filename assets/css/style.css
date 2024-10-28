@@ -173,7 +173,7 @@ main div {
     border-radius: 8px;
     padding: 10px 20px;
     margin-top: 10px;
-    font-size: 1rem;
+    font-size: 1em;
 
 }
 
@@ -240,13 +240,13 @@ main div {
 
     nav h2{
         padding-top: 40px;
-        font-size: 1.5rem;
+        font-size: 1.2em;
     }
 
     nav p {
         color: #00CFFD;
         padding-top: 30px;
-        font-size: 1rem;
+        font-size: 1em;
     }
 
     nav p:hover {
@@ -301,6 +301,9 @@ main div {
 
     .product-button {
         margin: 5px;
-    
+    }
+
+    .offerta-prodotti h2 {
+        font-size: 1.3em;
     }
 }
