@@ -117,10 +117,6 @@ footer {
     right: 10px;
 }
 
-.description.active {
-    display: flex;
-}
-
 /**filtro**/
 .filter {
     grid-area: filter;
