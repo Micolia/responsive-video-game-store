@@ -274,6 +274,10 @@ main div {
         width: 20%;
     }
 
+    main {
+        padding: 40px;
+    }
+
     .hamburger {
         display: none
     }
