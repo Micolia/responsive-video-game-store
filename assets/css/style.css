@@ -64,22 +64,6 @@ nav p {
 .description {
     display: none;
 }
-nav h2{
-    padding-top: 40px;
-}
-
-nav p {
-    color: #00CFFD;
-    padding-top: 30px;
-}
-
-nav p:hover {
-    color: #ffffff;
-    border: 2px solid #00CFFD;
-    border-radius: 8px;
-    padding: 8px;
-    margin-top: 30px;
-}
 
 select {
     border: 2px solid #00CFFD;
@@ -252,6 +236,25 @@ main div {
         flex-direction: column;
         justify-content: flex-start;
         padding: 30px 20px 30px 30px;
+    }
+
+    nav h2{
+        padding-top: 40px;
+        font-size: 1.5rem;
+    }
+
+    nav p {
+        color: #00CFFD;
+        padding-top: 30px;
+        font-size: 1rem;
+    }
+
+    nav p:hover {
+        color: #ffffff;
+        border: 2px solid #00CFFD;
+        border-radius: 8px;
+        padding: 8px;
+        margin-top: 30px;
     }
 
     .logo {
