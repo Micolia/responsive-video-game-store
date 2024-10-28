@@ -57,7 +57,7 @@ nav {
     border-radius: 50%;
 }
 
-.description {
+.descriptionmenu {
     display: none;
 }
 
@@ -293,7 +293,7 @@ main div {
         padding-bottom: 15px;
     }
 
-    .description {
+    .descriptionmenu {
         display: flex;
         flex-direction: column;
         padding: 0px 20px 20px 10px;
